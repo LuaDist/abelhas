@@ -1,0 +1,41 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Alexandre Erwin Ittner"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Particle Swarm Optimization in Lua"
+version = "1.1"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/pso.lua]],
+}
+,
+Documentation = {
+[[share/abelhas/doc//luapso.png]],
+[[share/abelhas/doc//style.css]],
+[[share/abelhas/doc//f1.png]],
+[[share/abelhas/doc//index.html]],
+}
+,
+Data = {
+[[share/abelhas/README]],
+[[share/abelhas/COPYING]],
+}
+,
+Example = {
+[[share/abelhas/example//test.lua]],
+[[share/abelhas/example//cool.lua]],
+[[share/abelhas/example//param1.lua]],
+[[share/abelhas/example//gnuplot.lua]],
+[[share/abelhas/example//schwefel7.lua]],
+[[share/abelhas/example//.gitignore]],
+}
+,
+}
+
+license = "copyrighted free software"
+name = "abelhas"
+url = "http://users.netuno.com.br/aittner"
